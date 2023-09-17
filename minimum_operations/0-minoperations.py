@@ -29,3 +29,8 @@ def minOperations(n):
         op_count += 1
 
     return op_count
+
+
+if __name__ == '__main__':
+    res = minOperations(2147483640)
+    print('minimum operations for 2147483640 chars is:', res)
